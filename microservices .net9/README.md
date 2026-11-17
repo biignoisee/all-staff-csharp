@@ -44,3 +44,49 @@ Adapatable: flexible to new buisness needs
 Composable: Easily assembled for a larger solutions
   efficient & expandable
 
+
+
+### Benefits & Challenge
+Functions independently
+Loosely coupled with the other services
+Easily deployable
+Highly Scalable
+Focused one specific business function
+Flexible to new business needs
+fully owned by one team
+Faster development
+Freedot to use the optimal tecnologies
+easily assembled for large solutions
+resilient to failures
+
+the challenge??
+data consistency and suncrhonization ...
+sync using event-drive updates or schedules sync jobs
+
+increased complexity in multi microservices scenarios
+  review sevice
+  payment service
+  production services tak over for final processing
+  article hub  kacknowledged the article satus change
+
+testing , debuggins and monitoring
+  testing involves setting up complex enviroments
+  monitoring requires correlation techniques ...
+
+
+
+## Modular Monolith
+An application is signle deployable unit, internally divided into well encapsulated modules
+modules each responsible for a specific part of the application
+
+  single deployable unit
+  modules have clear boundariies
+  can be shared across microservies
+  use the same database
+  no network obehead
+  modules can share or have thei own tech stack
+  team nautrally split into sub teaks for modules
+  modules align with specific business areas
+
+
+
