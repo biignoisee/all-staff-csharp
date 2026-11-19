@@ -90,3 +90,37 @@ modules each responsible for a specific part of the application
 
 
 
+
+### Modular Monolith vs Microservices
+
+Independence:  multiple modules share the same enviroment
+deployment:  deployed togetheer  with the other modules
+scalability:  the entire application is scaled
+communication: messages or method-call
+data: isolated, different database or schema
+technology: some flex in choosing the stack
+ownership: ....
+
+
+#### Real world Example -- File Storage
+File Storage at monolith:
+  Integrated with a microservices
+  Lower operational complexity
+  Better performance
+  Scales Naturally
+  Different security policy
+  Fits better the service needs
+
+
+File Storage at microservices
+  Independent scaling needs
+  Cross services storage operations
+  Company decides on a common file strategy
+    cost optimization
+    unified security and data governance
+    common retention policies
+    simplifying development and maintenance
+
+
+
+
